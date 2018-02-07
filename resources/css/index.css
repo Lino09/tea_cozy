@@ -1,11 +1,23 @@
-*{
+/* general */
+
+* {
   font-family: helvetica;
   color: seashell;
   text-align: center;
+}
+
+body {
   background-color: black;
 }
-header{
-  position:fixed;
+
+span {
+  font-size: 22px;
+}
+
+/*                   HEADER                */
+
+header {
+  position: fixed;
   z-index: 5;
   height: 69px;
   border-bottom: 1px solid seashell;
@@ -16,22 +28,30 @@ header{
   top: 0;
   background-color: black;
 }
+
 #logo img {
   height: 50px;
   padding-left: 10px;
 }
-nav span{
+
+nav span {
   margin-right: 20px;
 }
-  /*                          Below header                       */
-#contenido{
-  width:  100%
-  position: absolute;
+
+/*                          Below header                       */
+
+#contenido {
+  width: 100% position: absolute;
   top: 70px;
   opacity: 1;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
 }
+
 /*               MISSION                       */
-#mission{
+
+#mission {
   display: flex;
   background-image: url('../../resources/image/img-mission-background.jpg');
   background-repeat: no-repeat;
@@ -40,7 +60,76 @@ nav span{
   height: 700px;
   align-items: center;
 }
+
 #mission div {
   background-color: black;
   width: 1200px;
 }
+
+/*                        Featured Teas                       */
+
+#featured {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+.imagez {
+  flex-direction: column;
+  margin: 10px 13px;
+}
+
+#teaimages img {
+  height: 200px;
+  width: 300px;
+}
+
+#teaimages {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+/*                                LOCATIONS                              */
+
+#locations {
+  display: flex;
+  background-image: url('../../resources/image/img-locations-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+  height: 500px;
+  align-items: center;
+  border: 1px solid gray;
+  width: 1200px;
+  flex-direction: column;
+}
+
+#three div {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  margin: 15px 20px;
+  justify-content: space-around;
+}
+
+#three {
+  display: flex;
+}
+
+/*                                CONTACT                        */
+
+#contact {
+  height: 200px;
+}
+
+/*                 FOOTAH!!!          */
+
+p {
+  text-align: left;
+  margin-left: 20px;
+}
+
+/*               WASNT THIS THE LOVELYEST PAGE EVER?           */
