@@ -95,11 +95,9 @@ nav span {
 #locations {
   display: flex;
   background-image: url('../../resources/image/img-locations-background.jpg');
-  background-repeat: no-repeat;
-  justify-content: center;
   height: 500px;
   align-items: center;
-  border: 1px solid gray;
+  border: 1px solid gray;   /* I like how it looks :p*/
   width: 1200px;
   flex-direction: column;
 }
