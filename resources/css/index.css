@@ -96,7 +96,6 @@ nav span {
   display: flex;
   background-image: url('../../resources/image/img-locations-background.jpg');
   background-repeat: no-repeat;
-  background-position: center;
   justify-content: center;
   height: 500px;
   align-items: center;
